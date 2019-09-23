@@ -12,9 +12,9 @@ class PokemonPage extends React.Component {
         <br />
         <Search onSearchChange={_.debounce(() => console.log('🤔'), 500)} showNoResults={false} />
         <br />
-        <PokemonCollection />
-        <br />
         <PokemonForm />
+        <br />
+        <PokemonCollection />
       </div>
     )
   }
